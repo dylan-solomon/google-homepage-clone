@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(32, 33, 36);
+    font-family: 'Roboto', arial, sans-serif;
+}
+
+.small-text {
+    font-size: .9rem;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+ul>li {
+    list-style-type: none;
+    margin-inline: .5rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/****************/
+/**** NAVBAR ****/
+/****************/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.menu-bg:hover {
+    background-color: rgba(150, 150, 150, 0.2);
+    border-radius: 50%;
+}
+
+.user {
+    border-radius: 50%;
+}
+
+/**********************/
+/**** MAIN SECTION ****/
+/**********************/
+
+section {
+    padding-top: 20vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    padding: 1rem;
+    color: white;
+    font-size: 6rem;
+    font-weight: 500;
+}
+
+input[type="text"] {
+    width: 100%;
+    max-width: 60%;
+    height: 2.5rem;
+    border-radius: 1.25rem;
+    border: 1px solid rgba(150, 150, 150, 0.2);
+    background-color: rgb(32, 33, 36);
+}
+
+input[type="text"]:hover {
+    background-color: rgba(150, 150, 150, 0.2);
+    border: none;
+}
+
+section div {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn {
+    margin-top: 1rem;
+    margin-inline: .5rem;
+    padding: .5rem;
+    background-color: rgba(150, 150, 150, 0.2);
+    color: white;
+    border-radius: .25rem;
+    border: 1px solid rgb(32, 33, 36);
+}
+
+.btn:hover {
+    border: 1px solid rgba(150, 150, 150, 0.2);
+    cursor: pointer;
+}
+
+/****************/
+/**** FOOTER ****/
+/****************/
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    padding: .25rem auto .5rem auto;
+    color: #999da2;
+    background-color: #171717;
+}
+
+.carbon {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: center;
+    color: #999da2;
+}
+
+.carbon img {
+    max-height: 1rem;
+    padding-right: .2rem;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
+
+}
+
+footer ul a {
+    color: #999da2;
+    margin: auto 1rem;
+}
+
+
+
+
+
+
